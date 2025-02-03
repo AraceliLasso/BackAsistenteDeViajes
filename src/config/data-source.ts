@@ -8,9 +8,6 @@ export const AppDataSource = new DataSource({
     username: DB_USERNAME,
     password: DB_PASSWORD,
     database: DB_NAME,
-    // langsmithTracing: LANGSMITH_TRACING,
-    // langsmithKey: LANGSMITH_API_KEY,
-    // openaiKey: OPENAI_API_KEY,
     //sin dropSchema, se guardan las solicitudes http sin importar si 
     //cierro y abro el servidor
     // dropSchema: true,
